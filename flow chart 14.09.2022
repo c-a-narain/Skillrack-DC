@@ -1,0 +1,18 @@
+import java.util.*;
+public class Hello {
+
+    public static void main(String[] args) {
+		//Your Code Here
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		System.out.print(n);
+		
+		while(n>0){
+		    n--;
+		    if(n>0)
+		        System.out.print(n);
+		}
+		
+
+	}
+}
